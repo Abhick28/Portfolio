@@ -586,6 +586,7 @@ border:.3rem solid var(--yellow);
     justify-content: center;
 }
 .portfolio .box-container .box{
+width: 45rem; 
   position: relative;
   display: flex;
   border-radius: 2rem;
