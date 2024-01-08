@@ -192,13 +192,13 @@ header{
 }
 .loading .blocks{
     position: absolute;
-    width: 8px;
-    height: 25px;
+    width: 6px;
+    height: 60px;
     background: #0a0a0a;
     border-radius: 8px;
-    left: 90%;
-    transform: rotate(calc(18deg * var(--i)));
-    transform-origin: 0 80px;
+    left: 85%;
+    transform: rotate(calc(50deg * var(--i)));
+    transform-origin: 0 75px;
     animation: animate1 1.9s ease-in-out infinite;
     animation-delay: calc(0.05s * var(--i));
 }
@@ -212,32 +212,23 @@ header{
         box-shadow: 0 0 5px #0f0,
         0 0 15px #0f0,
         0 0 30px #0f0,
-        0 0 60px #0f0,
-
+        0 0 60px #0f0;
     }
 }
-.loading h3{
-    font-style: oblique;
-    position: absolute;
-    top: 50%;
-    left: 90%;
-    transform: translate(-50%,-50%);
-    font-size: 4rem;
-    letter-spacing: 2px;
+.logo{
+    position: relative;
+    color:#0a0a0a;
+    font-size: 5em;
+    top: 33%;
+    left: 35%;   
+    text-shadow: 0 0 5px #0f0,
+    0 0 15px #0f0,
+    0 0 30px #0f0,
+    0 0 60px #0f0;
     animation: animateText 2s ease-in-out infinite;
-    animation-delay: -1s;
+    animation-delay: -1s; 
 }
-@keyframes animateText {
-    0%{
-        color: #0a0a0a;
-     text-shadow: none;
-    }
-    50.1%,100%{
-        color: #0f0;
-     text-shadow: 0 0 5px #0f0,
 
-    }
-}
 header .user .name{
     font-size: 3rem;
     color: #fff;
